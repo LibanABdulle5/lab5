@@ -1,0 +1,163 @@
+</head>
+<body>
+    <header>
+        <h1>My Music Paradise</h1>
+        <nav>
+            <ul>
+                <li><a href="#Rap">Rap</a></li>
+                <li><a href="#Pop">Pop</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section id="Rap">
+        <div class="genre">
+            <h2>Rap Music</h2>
+            <div class="card">
+                <h3>Featured Artists</h3>
+                <div class="artist">
+                    <h4>Haji Basto</h4>
+                    <p>Check out the music of Haji Basto.</p>
+                </div>
+                <div class="artist">
+                    <h4>Duvy</h4>
+                    <p>Listen to the amazing tunes by Duvy.</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Top Hits</h3>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/pXNvSRubYl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/SrBJWM7ihh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="Pop">
+        <div class="genre">
+            <h2>Pop Music</h2>
+            <div class="card">
+                <h3>Featured Artists</h3>
+                <div class="artist">
+                    <h4>The Weekend</h4>
+                    <p>Enjoy the classics from The Weekend.</p>
+                </div>
+                <div class="artist">
+                    <h4>NBA Youngboy</h4>
+                    <p>Experience the magic of NBA Youngboy's music.</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Top Hits</h3>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/XXYlFuWEuKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/lYFRNh5vak0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Liban</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Paradise</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://th.bing.com/th/id/R.87dd86260fc44247d05b3ad7e097dd48?rik=0kwRa2RBv9VQDQ&pid=ImgRaw&r=0') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1db954;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .genre {
+            margin-bottom: 2rem;
+        }
+
+        .genre h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #1db954;
+        }
+
+        .card {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            padding: 2rem;
+            margin: 0 auto 2rem;
+            max-width: 600px;
+        }
+
+        .artist {
+            margin-bottom: 1rem;
+        }
+
+        .artist h4 {
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        iframe {
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #1db954;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.8rem;
+        }
+
+        .music-image {
+            width: 60%;
+            max-width: 400px; 
+            border-radius: 10px;
+            margin: 20px auto; 
+            display: block;
+        }
+    </style>
